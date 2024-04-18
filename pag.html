@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="row my-5 d-flex justify-content-center">
             <div class="col-5">
-                <form action="proyecto.php" method="post">
+                <form action="proyecto.php" method="post" name="usuario">
                     <div class="card ">
                         <div class="card-header">
                             <h2 style="text-align: center;">LOGIN </h2>                  
@@ -20,7 +21,7 @@
                             <!-- userName -->
 
                             <div class="form-group">
-                                <label class="form-label">UserName:</label>
+                                <label class="form-label" >UserName:</label>
                                 <input type="text" class="form-control"> 
                             </div>
                            
@@ -31,7 +32,7 @@
                                 <input type="text" class="form-control">
                             </div>
 
-                            <button type="button" name="ingresar" class="btn btn-outline-primary my-2">Ingresar</button>
+                            <button type="submit" name="ingresar" class="btn btn-outline-primary my-2">Ingresar</button>
 
                         </div>  
                     </div>     
